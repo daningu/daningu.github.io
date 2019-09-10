@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-Hi, I'm [Gapry](https://twitter.com/0xGapry), live in Macao.
+Hi, I'm Daniel and looking to learn more about CyberSecurity.
