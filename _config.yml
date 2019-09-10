@@ -1,0 +1,8 @@
+title: Next Coding
+baseurl: ""
+url: ""
+github_username:  gapry
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+ - jekyll-feed
