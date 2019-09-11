@@ -2,7 +2,6 @@ title: Continuous Learning & Continuous Development
 baseurl: ""
 url: ""
 github_username:  daningu
-markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
  - jekyll-feed
