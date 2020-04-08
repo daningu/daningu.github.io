@@ -14,9 +14,9 @@ This is particularly useful when using tools like metasploit.
 
 Recommended host machine specs (from what experience I have): 
 
-..- Any processor with more than 2 cores made in the last 10 years
-..- 8GB+ RAM
-..- 120GB+ SSD for VMs *more would be nice, especially when using snapshots
-..- Internet connection
+⋅⋅- Any processor with more than 2 cores made in the last 10 years
+⋅⋅- 8GB+ RAM
+⋅⋅- 120GB+ SSD for VMs *more would be nice, especially when using snapshots
+⋅⋅- Internet connection
 
 
