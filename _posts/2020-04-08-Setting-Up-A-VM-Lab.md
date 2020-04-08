@@ -12,11 +12,19 @@ Easy way is to get your hands dirty and see what is out there. This should give 
 There are many ways how to set up a lab to use with vulnerable images/VM's, but this is what I like to use as it does not expose the outside netowrk which the host machine is connected to, but also allowing the vm's to access the internet
 This is particularly useful when using tools like metasploit.
 
+The gist of the method is to create a network virtually with a router and having all the VMs attached to it, where the router provides an internet connection to the VMs as well as internal networking. The router also does not see any of the host machine netowrk, which provides protection to other machines/appliances which are not supposed to be "learned" on.
+
 Recommended host machine specs (from what experience I have): 
 
-⋅⋅- Any processor with more than 2 cores made in the last 10 years
-⋅⋅- 8GB+ RAM
-⋅⋅- 120GB+ SSD for VMs *more would be nice, especially when using snapshots
-⋅⋅- Internet connection
+  - Any processor with more than 2 cores made in the last 10 years
+  - 8GB+ RAM
+  - 120GB+ SSD for VMs *more would be nice, especially when using snapshots
+  - Internet connection?
+
+List of things to download:
+  - [Virtual box](https://www.virtualbox.org/wiki/Downloads) (my prefered type 2 hypervisor)
+  - [pfsense](https://www.pfsense.org/download/) (for your routing needs)
+  - [kali linux](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) (or preferred attacking operating system)
+  - target/vulnerable images (I source mine from vulnhub or connect to hackthebox)
 
 
