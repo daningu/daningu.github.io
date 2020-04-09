@@ -5,13 +5,10 @@ date:   2020-04-08 20:00:00 -0900
 categories: jekyll update
 ---
 
-Where to start with lerning penetration testing and vulnerability assessment?
-
-Easy way is to get your hands dirty and see what is out there. This should give you a great overveiw of what there is to learn and what exactly you want to dive depper in.
-
+Where to start with lerning penetration testing and vulnerability assessment?  
+Easy way is to get your hands dirty and see what is out there. This should give you a great overveiw of what there is to learn and what exactly you want to dive depper in.  
 There are many ways how to set up a lab to use with vulnerable images/VM's, but this is what I like to use as it does not expose the outside netowrk which the host machine is connected to, but also allowing the vm's to access the internet
-This is particularly useful when using tools like metasploit.
-
+This is particularly useful when using tools like metasploit.  
 The gist of the method is to create a network virtually with a router and having all the VMs attached to it, where the router provides an internet connection to the VMs as well as internal networking. The router also does not see any of the host machine netowrk, which provides protection to other machines/appliances which are not supposed to be "learned" on.
 
 Recommended host machine specs (from what experience I have): 
@@ -37,11 +34,11 @@ Installation & Configuration:
 2. Import the kali ova into virtualbox
 3. Start the kali image and make sure it works (login changed recently to kali/kali instead of root/toor)
 4. Create a new Virtual Machine for pfsense
-  a. Name: pfsense
-  b. Type: BSD
-  c. Version: FreeBSD (64-bit)
-  d. RAM: 512MB (or more if you have the luxury)
-  e. Create a virtual hard disk --> ~6GB --> VDI --> Dynamically allocated 
+    a. Name: pfsense
+    b. Type: BSD
+    c. Version: FreeBSD (64-bit)
+    d. RAM: 512MB (or more if you have the luxury)
+    e. Create a virtual hard disk --> ~6GB --> VDI --> Dynamically allocated 
   
   
   ---WIP---
