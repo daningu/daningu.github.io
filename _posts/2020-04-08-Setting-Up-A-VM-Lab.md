@@ -33,12 +33,12 @@ Installation & Configuration:
 1. Install virtualbox 
 2. Import the kali ova into virtualbox
 3. Start the kali image and make sure it works (login changed recently to kali/kali instead of root/toor)
-4. Create a new Virtual Machine for pfsense
-    a. Name: pfsense
-    b. Type: BSD
-    c. Version: FreeBSD (64-bit)
-    d. RAM: 512MB (or more if you have the luxury)
-    e. Create a virtual hard disk --> ~6GB --> VDI --> Dynamically allocated 
+4. Create a new Virtual Machine for pfsense  
+    a. Name: pfsense  
+    b. Type: BSD  
+    c. Version: FreeBSD (64-bit)  
+    d. RAM: 512MB (or more if you have the luxury)  
+    e. Create a virtual hard disk --> ~6GB --> VDI --> Dynamically allocated  
   
   
   ---WIP---
