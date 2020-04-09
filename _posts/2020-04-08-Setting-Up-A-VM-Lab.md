@@ -28,11 +28,20 @@ List of things to download:
   - target/vulnerable images (I source mine from [vulnhub](https://www.vulnhub.com/) or connect to [hackthebox](https://www.hackthebox.eu/))
 
 Notes for the downloads:
-  * for pfsense: make sure you download a AMD64 and ISO of pfsense
+  * for pfsense: make sure you download a AMD64 and ISO image of pfsense
   * kali: get a virtualbox image (64-bit) for convenience
 
 Installation & Configuration:
-  1. 
+
+1. Install virtualbox 
+2. Import the kali ova into virtualbox
+3. Start the kali image and make sure it works (login changed recently to kali/kali instead of root/toor)
+4. Create a new Virtual Machine for pfsense
+  a. Name: pfsense
+  b. Type: BSD
+  c. Version: FreeBSD (64-bit)
+  d. RAM: 512MB (or more if you have the luxury)
+  e. Create a virtual hard disk --> ~6GB --> VDI --> Dynamically allocated 
   
   
   ---WIP---
