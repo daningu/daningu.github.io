@@ -25,6 +25,14 @@ List of things to download:
   - [Virtual box](https://www.virtualbox.org/wiki/Downloads) (my prefered type 2 hypervisor)
   - [pfsense](https://www.pfsense.org/download/) (for your routing needs)
   - [kali linux](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) (or preferred attacking operating system)
-  - target/vulnerable images (I source mine from vulnhub or connect to hackthebox)
+  - target/vulnerable images (I source mine from [vulnhub](https://www.vulnhub.com/) or connect to [hackthebox](https://www.hackthebox.eu/))
 
+Notes for the downloads:
+  * for pfsense: make sure you download a AMD64 and ISO of pfsense
+  * kali: get a virtualbox image (64-bit) for convenience
 
+Installation & Configuration:
+  1. 
+  
+  
+  ---WIP---
